@@ -10,3 +10,5 @@ wsl –-install
 
 ![](https://github.com/thelastoutpostworkshop/images/blob/main/image.png)
 > Restart your computer and go the bios to enable virtualization (check your manufacturer’s bios documentation)
+## Arduino IDE installation in WSL
+>Using the Windows file manager
