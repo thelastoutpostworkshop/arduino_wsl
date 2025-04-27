@@ -62,3 +62,10 @@ sudo apt install nemo
 
 ![](/images/ensure_virtualization.png)
 > Restart your computer and go the bios to enable virtualization (check your manufacturer’s bios documentation)
+
+### failed to create dri2 screen
+> If you get a "failed to create dri2 screen" or somehting similar in Ubunto when starting the nemo file manager or the arduino IDE, type this command in the Ubuntu terminal
+
+```shell
+export LIBGL_ALWAYS_SOFTWARE=1
+```
