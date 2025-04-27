@@ -23,10 +23,7 @@ wsl --install --Ubuntu-24.04
 
 ![](/images/select_ubuntu_terminal.png)
 
-> If you get an error message like this saying that you have to enable virtualization in the BIOS
 
-![](/images/ensure_virtualization.png)
-> Restart your computer and go the bios to enable virtualization (check your manufacturer’s bios documentation)
 
 ## Arduino IDE installation in WSL
 >Download **AppImage 64 bits (X86-64)** from the [arduino web site](https://www.arduino.cc/en/software/)
@@ -58,3 +55,10 @@ sudo apt install nemo
 ```shell
 ./arduino-ide_2.3.6_Linux_64bit.AppImage
 ```
+
+## Troubleshooting
+### Enable virtualization in the BIOS
+> If you get an error message like this saying that you have to enable virtualization in the BIOS when you start the Linux distribution
+
+![](/images/ensure_virtualization.png)
+> Restart your computer and go the bios to enable virtualization (check your manufacturer’s bios documentation)
