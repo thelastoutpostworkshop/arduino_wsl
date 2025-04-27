@@ -8,7 +8,7 @@ wsl –-install
 ```
 > If you get an error message like this saying that you have to enable virtualization in the BIOS
 
-![](https://github.com/thelastoutpostworkshop/images/blob/main/image.png)
+![](/assets/images/ensure_virtualization.png)
 > Restart your computer and go the bios to enable virtualization (check your manufacturer’s bios documentation)
 ## Arduino IDE installation in WSL
 >Using the Windows file manager
