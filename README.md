@@ -69,3 +69,5 @@ sudo apt install nemo
 ```shell
 export LIBGL_ALWAYS_SOFTWARE=1
 ```
+
+### usbpid 'warning: USB filter 'TsUsbFlt' is known to be incompatible'
