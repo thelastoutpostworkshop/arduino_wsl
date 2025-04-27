@@ -71,3 +71,9 @@ export LIBGL_ALWAYS_SOFTWARE=1
 ```
 
 ### usbpid 'warning: USB filter 'TsUsbFlt' is known to be incompatible'
+> If usbpid warn you that USB filter is in place, open the registry editor in Windows and locate this ressource and delete "Upper Filters"\
+
+`
+Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Class\{36fc9e60-c465-11cf-8056-444553540000}
+`
+>Reboot your computer for the change to take effect
