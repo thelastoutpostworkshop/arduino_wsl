@@ -22,5 +22,9 @@ wsl --install --Ubuntu-24.04
 
 ![](/images/ensure_virtualization.png)
 > Restart your computer and go the bios to enable virtualization (check your manufacturer’s bios documentation)
+
+>Open a terminal Window
+
+
 ## Arduino IDE installation in WSL
 >Using the Windows file manager
