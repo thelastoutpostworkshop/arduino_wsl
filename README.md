@@ -45,7 +45,7 @@ sudo add-apt-repository universe
 sudo apt install libfuse2
 ```
 
->Install the nemo Linux file manager (optional)
+>Install the nemo Linux file manager
 
 ```shell
 sudo apt install nemo
@@ -77,3 +77,18 @@ export LIBGL_ALWAYS_SOFTWARE=1
 Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Class\{36fc9e60-c465-11cf-8056-444553540000}
 `
 >Reboot your computer for the change to take effect
+
+### Arduino IDE : permission denied to use the USB port
+>If you get a permission denied to use the port in the Arduino IDE, in the Ubunto terminal, type this command
+
+```shell
+sudo usermod -aG dialout (your user login)
+```
+
+> Shutdown wsl for the change to take effect, in the powershell terminal, type
+
+```cmd
+wsl --shutdown
+```
+
+> Reopen your Ubuntu termial and launch the Arduino IDE
