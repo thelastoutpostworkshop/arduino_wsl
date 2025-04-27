@@ -19,6 +19,7 @@ wsl -l -o
 wsl --install --Ubuntu-24.04
 ```
 >Open a terminal Window and select the Ubuntu installed to start it
+>You will be asked to create an account with a password
 
 ![](/images/select_ubuntu_terminal.png)
 
@@ -33,3 +34,27 @@ wsl --install --Ubuntu-24.04
 >Open the Linux file distribution with this command in the Windows Search Bar: `\\wsl$`
 
 >Copy the **AppImage 64 bits (X86-64)** in the home folder of your distribution
+
+>In the Ubuntu terminal windows, type this command to give execute permission to the arduino application image
+
+```shell
+sudo chmod +x arduino-ide_2.3.6_Linux_64bit.AppImage 
+```
+
+>Install the Arduino IDE dependencies
+
+```shell
+sudo add-apt-repository universe
+sudo apt install libfuse2
+```
+
+>Install the nemo Linux file manager (optional)
+
+```shell
+sudo apt install nemo
+```
+
+>You can open the Arduino IDE with a double-click on the Arduino Image icon in the nemo file manager or launch it with this command
+```shell
+./arduino-ide_2.3.6_Linux_64bit.AppImage
+```
