@@ -30,6 +30,6 @@ wsl --install --Ubuntu-24.04
 ## Arduino IDE installation in WSL
 >Download **AppImage 64 bits (X86-64)** from the [arduino web site](https://www.arduino.cc/en/software/)
 
->Open the Linux file distribution with this command in the Windows Search Bar: /\/wsl$
+>Open the Linux file distribution with this command in the Windows Search Bar: `\\wsl$`
 
 >Copy the **AppImage 64 bits (X86-64)** in the home folder of your distribution
