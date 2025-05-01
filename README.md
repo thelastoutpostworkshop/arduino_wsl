@@ -55,6 +55,27 @@ sudo apt install nemo
 ```shell
 ./arduino-ide_2.3.6_Linux_64bit.AppImage
 ```
+## usbipd installation and use
+>In a Windows terminal, type this command to install usbipd to share usb ports with WSL (you may have to restart your computer)
+```cmd
+winget install usbipd
+```
+>In the Ubuntu terminal windows, type this command to give your linux account access to USB ports
+```shell
+sudo usermod -aG dialout (your user login)
+```
+>Connect your development board to a USB port and in a Windows terminal, type this command to list ports
+```cmd
+usbipd list
+```
+>Bind the port where you development board is connected with this command (replace 1-7 with the actual number of your port in the list)
+```cmd
+usbipd bind --busid=1-7
+```
+>Share your port with WSL with this command (replace 1-7 with the actual number of your port in the list).  You will have to re-exectute this command if you unplug and replug your development board from the USB port.
+```cmd
+usbipd attach --wsl --busid=1-7
+```
 
 ## Troubleshooting
 ### Enable virtualization in the BIOS
