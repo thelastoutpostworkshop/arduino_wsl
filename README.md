@@ -4,7 +4,7 @@
 </a>
 
 ## Youtube Tutorial
-[<img src="https://github.com/thelastoutpostworkshop/images/blob/main/internet_radio.png" width="500">](https://youtu.be/mnOzfRFQJIM)
+[<img src="https://github.com/thelastoutpostworkshop/arduino_wsl/blob/main/images/Fast%20Compile-1.png" width="500">](https://youtu.be/mnOzfRFQJIM)
 
 ## WSL Installation
 > Enable **Windows Subsystem for Linux** in optional features
