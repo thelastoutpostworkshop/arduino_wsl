@@ -56,6 +56,7 @@ sudo apt install nemo
 ./arduino-ide_2.3.6_Linux_64bit.AppImage
 ```
 ## usbipd installation and use
+>usbipd documentation is [here](https://github.com/dorssel/usbipd-win)
 >In a Windows terminal, type this command to install usbipd to share usb ports with WSL (you may have to restart your computer)
 ```cmd
 winget install usbipd
